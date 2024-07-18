@@ -1,0 +1,44 @@
+{
+  "appSaveId": 297247018,
+  "pathMaps": {
+    "/queries/query1.query.query": {
+      "keyPath": [
+        "plugins",
+        "query1",
+        "template",
+        "query"
+      ],
+      "filePath": "/queries/query1.query.query"
+    },
+    "/queries/query1.transformer.js": {
+      "keyPath": [
+        "plugins",
+        "query1",
+        "template",
+        "transformer"
+      ],
+      "filePath": "/queries/query1.transformer.js"
+    }
+  },
+  "virtualFiles": {
+    "/queries/query1.query.query": {
+      "path": "/queries/query1.query.query",
+      "contents": "",
+      "dirPath": "/queries"
+    },
+    "/queries": {
+      "dirPath": "/",
+      "path": "/queries",
+      "isDirectory": true
+    },
+    "/queries/query1.transformer.js": {
+      "path": "/queries/query1.transformer.js",
+      "contents": "// Query results are available as the `data` variable\nreturn data",
+      "dirPath": "/queries"
+    },
+    "/": {
+      "path": "/",
+      "isDirectory": true
+    }
+  }
+}
